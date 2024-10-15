@@ -229,25 +229,25 @@
                                 <div class="owl-single-dots owl-carousel owl-theme">
                                     <div class="item">
                                         <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp"></i>
-                                        <h3 class="mb-4 wow fadeInUp fs-32">The experience was great, experience and well oriented staff. The locate is very secure and room are well suited, throughout my stay in Vinchee, its a home away from home.</h3>
+                                        <h5 class="mb-4 wow fadeInUp fs-32">The experience was great, experience and well oriented staff. The locate is very secure and room are well suited, throughout my stay in Vinchee, its a home away from home.</h5>
                                         <span class="wow fadeInUp">Chi tv</span>
                                     </div>
 
                                     <div class="item">
                                         <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp"></i>
-                                        <h3 class="mb-4 wow fadeInUp fs-32">My partner and I lodged here for a weekend getaway sometimes last year. The place is neat, calm, private. It is suitable for people who want to have private and refreshing getaways. Victoria was responsive and courteous throughout our stay. We'd visit again someday.</h3>
+                                        <h5 class="mb-4 wow fadeInUp fs-32">My partner and I lodged here for a weekend getaway sometimes last year. The place is neat, calm, private. It is suitable for people who want to have private and refreshing getaways. Victoria was responsive and courteous throughout our stay. We'd visit again someday.</h5>
                                         <span class="wow fadeInUp">Phebean Ilesanmi</span>
                                     </div>
 
                                     <div class="item">
                                         <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp"></i>
-                                        <h3 class="mb-4 wow fadeInUp fs-32">Amazing family run boutique hotel in a safe, quiet gated estate less than 3 km from the airport. Not only is it conveniently located, they currently offer a 6am check-in at no extra cost, which is valuable for those who are coming in on an early flight and want to get some rest asap. I stayed in a king room, and I also toured the 2 and 3 bedroom suites that offer a huge living room and kitchen in each. Best of all, their food is delicious and definitely worthy of the last meal before a trip or first meal back in country.</h3>
+                                        <h5 class="mb-4 wow fadeInUp fs-32">Amazing family run boutique hotel in a safe, quiet gated estate less than 3 km from the airport. Not only is it conveniently located, they currently offer a 6am check-in at no extra cost, which is valuable for those who are coming in on an early flight and want to get some rest asap. I stayed in a king room, and I also toured the 2 and 3 bedroom suites that offer a huge living room and kitchen in each. Best of all, their food is delicious and definitely worthy of the last meal before a trip or first meal back in country.</h5>
                                         <span class="wow fadeInUp">Monica</span>
                                     </div>
 
                                     <div class="item">
                                         <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp"></i>
-                                        <h3 class="mb-4 wow fadeInUp fs-32">The apartment is a very neat, quiet environment and well secured. I really enjoyed my stay,most especially the staff and small bar.. I recommend</h3>
+                                        <h5 class="mb-4 wow fadeInUp fs-32">The apartment is a very neat, quiet environment and well secured. I really enjoyed my stay,most especially the staff and small bar.. I recommend</h5>
                                         <span class="wow fadeInUp">Chibuike Okoli</span>
                                     </div>
                                 </div>
