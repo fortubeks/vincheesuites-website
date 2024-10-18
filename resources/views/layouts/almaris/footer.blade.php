@@ -110,6 +110,7 @@
                             <div style="width: 279px;">
                                 <h3 class="fs-20">Contact Us</h3>
                                 T. +234 808 2264 845<br>
+                                T. +234 916 3350 000<br> 
                                 M. hello@vincheesuites.com
                             </div>
                         </div>

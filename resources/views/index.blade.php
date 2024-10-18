@@ -1,6 +1,13 @@
 @extends('layouts.almaris.master')
 @section('content')
-
+<style>
+    .text-gold{
+        color:#e4a853 !important;
+    }
+    .pl-90{
+        height: 52px;
+    }
+</style>
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
 
@@ -165,52 +172,106 @@
         <div class="row g-4">
 
             <div class="col-lg-12 text-center">
+                <div class="subtitle id-color wow fadeInUp mb-2">Discover</div>
+                <h2 class="wow fadeInUp">Our Facilities</h2>
+            </div>
+            <!-- <div class="col-lg-12 text-center">
                 <div class="wow scaleIn">
                     <h2 class="wow fadeInUp">Our Facilities</h2>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
         <div class="row g-4 relative z-2">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+            <div class="spacer-single"></div>
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".0s">
                 <div class="relative p-4 bg-white soft-shadow">
-                    <span class="abs w-70px p-3 bg-color d-block">
-                        <img src="almaris/images/svg/restaurant-svgrepo-com.svg" class="w-100" alt="">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
                     </span>
                     <div class="pl-90">
-                        <h4>Restaurant</h4>
-                        <p class="mb-0">Indulge in delicious cuisine, offering local and international dishes, expertly crafted for every taste.</p>
+                        <h5>24/7 Power Supply</h5>
                     </div>
                 </div>
             </div>
         
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".3s">
                 <div class="relative p-4 bg-white soft-shadow">
-                    <span class="abs w-70px p-3 bg-color d-block">
-                        <img src="almaris/images/svg/swimming-pool-svgrepo-com.svg" class="w-100" alt="">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
                     </span>
                     <div class="pl-90">
-                        <h4>Spa &amp; Massage</h4>
-                        <p class="mb-0">Relax with our rejuvenating spa and massage treatments, designed to relieve stress and revitalize you.</p>
+                        <h5>WiFi & Internet Access</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".6s">
                 <div class="relative p-4 bg-white soft-shadow">
-                    <span class="abs w-70px p-3 bg-color d-block">
-                        <img src="almaris/images/svg/fitness-gym-svgrepo-com.svg" class="w-100" alt="">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
                     </span>
                     <div class="pl-90">
-                        <h4>Laundry Service</h4>
-                        <p class="mb-0">Experience our efficient laundry service, ensuring your clothes are clean, fresh, and ready for any occasion.</p>
+                        <h5>Secure Environment</h5>
                     </div>
                 </div>
             </div>
 
-            
-            
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".9s">
+                <div class="relative p-4 bg-white soft-shadow">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food" ></i>
+                    </span>
+                    <div class="pl-90">
+                        <h5>Outdoor Smoking Area</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".0s">
+                <div class="relative p-4 bg-white soft-shadow">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
+                    </span>
+                    <div class="pl-90">
+                        <h5>Rooms En-Suite</h5>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".3s">
+                <div class="relative p-4 bg-white soft-shadow">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
+                    </span>
+                    <div class="pl-90">
+                        <h5>Mini Chiller</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                <div class="relative p-4 bg-white soft-shadow">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food"></i>
+                    </span>
+                    <div class="pl-90">
+                        <h5>Laundry Services</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".9s">
+                <div class="relative p-4 bg-white soft-shadow">
+                    <span class="abs w-70px d-block">
+                    <i class="text-gold fs-48 mb-4 icofont-fast-food" ></i>
+                    </span>
+                    <div class="pl-90">
+                        <h5>Estate View</h5>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -224,7 +285,7 @@
                     <img src="almaris/images/background/2.webp" class="jarallax-img" alt="">
 
                     <div class="row justify-content-center">
-                        <div class="col-lg-8">
+                        <div class="col-lg-10">
                             <div class="bg-blur p-5 text-center">
                                 <div class="owl-single-dots owl-carousel owl-theme">
                                     <div class="item">
@@ -281,7 +342,7 @@
                         <h4 class="mt-2 mb-0">Small D Room</h4>
                         <div class="text-center fs-14 mb-3">
                             <span class="mx-2">
-                                2 Guests
+                                1 Guest
                             </span>
                             <span class="mx-2">
                                 30 ft
@@ -541,17 +602,17 @@
 @endsection
 <script>
     window.addEventListener('load', function() {
-        ₦('#reservationForm').on('submit', function(event) {
+        $('#reservationForm').on('submit', function(event) {
             // Create a new hidden input and append it to the form
-            var startValue = ₦('input[name="daterangepicker_start"]').val();
-            ₦('<input>').attr({
+            var startValue = $('input[name="daterangepicker_start"]').val();
+            $('<input>').attr({
                 type: 'hidden',
                 name: 'checkin_date',  // This should match the name attribute of the external input
                 value: startValue
             }).appendTo('#reservationForm');
 
-            var endValue = ₦('input[name="daterangepicker_end"]').val();
-            ₦('<input>').attr({
+            var endValue = $('input[name="daterangepicker_end"]').val();
+            $('<input>').attr({
                 type: 'hidden',
                 name: 'checkout_date',  // This should match the name attribute of the external input
                 value: endValue
