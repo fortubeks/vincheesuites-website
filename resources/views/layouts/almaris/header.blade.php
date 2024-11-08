@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-between xs-hide">
-                        <div class="header-widget d-flex">                                    
-                            <div class="topbar-widget"><a href="#"><i class="icofont-location-pin"></i>No.1, Bisi Oladipo Street, 
-                                Aviation Estate, Off MM Int'l Airport Road
-                                Lagos, Nigeria</a></div>
+                        <div class="header-widget d-flex">
+                            <div class="topbar-widget"><a href="#"><i class="icofont-location-pin"></i>No.1, Bisi Oladipo Street,
+                                    Aviation Estate, Off MM Int'l Airport Road
+                                    Lagos, Nigeria</a></div>
                             <div class="topbar-widget"><a href="#"><i class="icofont-phone"></i>+234 808 2264 845</a></div>
                             <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>hello@vincheesuites.com</a></div>
                         </div>
@@ -41,10 +41,10 @@
                         </ul>
                     </div>
                     <div class="col-center">
-                        <a href="index.html"><img src="almaris/images/logo-gold-text.png" alt="" ></a>
+                        <a href="{{route('home')}}"><img src="almaris/images/logo-gold-text.png" alt=""></a>
                     </div>
                     <div class="col-end">
-                        <div class="menu_side_area">          
+                        <div class="menu_side_area">
                             <a href="{{route('home').'#section-intro'}}" class="btn-main btn-line sm-hide">Reservation</a>
                             <span id="menu-btn"></span>
                         </div>
@@ -54,4 +54,4 @@
         </div>
     </div>
 </header>
-        <!-- header close -->
+<!-- header close -->
