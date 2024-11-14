@@ -87,44 +87,44 @@
 </section> -->
 <!-- footer begin -->
 <footer class="text-light section-dark">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-12">
-                        <div class="d-lg-flex align-items-center justify-content-between text-center">
-                            <div>
-                                <h3 class="fs-20">Address</h3>
-                                No.1, Bisi Oladipo Street, <br>
-                                Aviation Estate, Off MM Int'l Airport Road<br>
-                                Lagos, Nigeria
-                            </div>
-                            <div>
-                                <img src="almaris/images/icon-white.png" class="" alt=""><br>
-                                <div class="social-icons mb-sm-30 mt-4">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                </div>
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-12">
+                <div class="d-lg-flex align-items-center justify-content-between text-center">
+                    <div>
+                        <h3 class="fs-20">Address</h3>
+                        No.1, Bisi Oladipo Street, <br>
+                        Aviation Estate, Off MM Int'l Airport Road<br>
+                        Lagos, Nigeria
+                    </div>
+                    <div>
+                        <img src="almaris/images/icon-gold.png" class="" alt=""><br>
+                        <div class="social-icons mb-sm-30 mt-4">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
 
-                            </div>
-                            <div style="width: 279px;">
-                                <h3 class="fs-20">Contact Us</h3>
-                                T. +234 808 2264 845<br>
-                                T. +234 916 3350 000<br> 
-                                M. hello@vincheesuites.com
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            VHS Vinchee Suites
-                        </div>
+                    </div>
+                    <div style="width: 279px;">
+                        <h3 class="fs-20">Contact Us</h3>
+                        T. +234 808 2264 845<br>
+                        T. +234 916 3350 000<br>
+                        M. hello@vincheesuites.com
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- footer close -->
+        </div>
+    </div>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    VHS Vinchee Suites
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer close -->
