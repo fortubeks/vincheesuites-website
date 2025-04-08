@@ -98,7 +98,7 @@
                         Lagos, Nigeria
                     </div>
                     <div>
-                        <img src="almaris/images/icon-gold.png" class="" alt=""><br>
+                        <img src="{{url('almaris/images/icon-gold.png')}}" class="" alt=""><br>
                         <div class="social-icons mb-sm-30 mt-4">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>

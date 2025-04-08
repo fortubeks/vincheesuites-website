@@ -3,7 +3,7 @@
 
 <head>
     <title>Vinchee Suites</title>
-    <link rel="icon" href="almaris/images/icon-white-36x36.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="{{url('almaris/images/icon-white-36x36.png')}}" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Vinchee Suites" name="description">
@@ -11,13 +11,13 @@
     <meta content="" name="author">
     <!-- CSS Files
     ================================================== -->
-    <link href="almaris/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="almaris/css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="almaris/css/swiper.css" rel="stylesheet" type="text/css">
-    <link href="almaris/css/style.css" rel="stylesheet" type="text/css">
-    <link href="almaris/css/coloring.css" rel="stylesheet" type="text/css">
+    <link href="{{url('almaris/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="{{url('almaris/css/plugins.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('almaris/css/swiper.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('almaris/css/style.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('almaris/css/coloring.css')}}" rel="stylesheet" type="text/css">
     <!-- color scheme -->
-    <link id="colors" href="almaris/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="{{url('almaris/css/colors/scheme-01.css')}}" rel="stylesheet" type="text/css">
 
     <style>
         .floating-button {
@@ -73,18 +73,18 @@
 
     <!-- Floating button -->
     <div class="floating-button">
-        <a aria-label="Chat on WhatsApp" href="https://wa.me/2348082264845"> <img alt="Chat on WhatsApp" src="almaris/images/misc/WhatsAppButtonWhiteSmall.png" />
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/2348082264845"> <img alt="Chat on WhatsApp" src="{{url('almaris/images/misc/WhatsAppButtonWhiteSmall.png')}}" />
     </div>
 
     <!-- Javascript Files
     ================================================== -->
-    <script src="almaris/js/plugins.js"></script>
-    <script src="almaris/js/designesia.js"></script>
-    <script src="almaris/js/swiper.js"></script>
-    <script src="almaris/js/custom-marquee.js"></script>
-    <script src="almaris/js/custom-swiper-3.js"></script>
+    <script src="{{url('almaris/js/plugins.js')}}"></script>
+    <script src="{{url('almaris/js/designesia.js')}}"></script>
+    <script src="{{url('almaris/js/swiper.js')}}"></script>
+    <script src="{{url('almaris/js/custom-marquee.js')}}"></script>
+    <script src="{{url('almaris/js/custom-swiper-3.js')}}"></script>
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-    <script src="almaris/contact.js"></script>
+    <script src="{{url('almaris/contact.js')}}"></script>
 
 </body>
 

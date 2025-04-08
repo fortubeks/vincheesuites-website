@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                     <div class="col-center">
-                        <a href="{{route('home')}}"><img src="almaris/images/logo-gold-text.png" alt=""></a>
+                        <a href="{{route('home')}}"><img src="{{url('almaris/images/logo-gold-text.png')}}" alt=""></a>
                     </div>
                     <div class="col-end">
                         <div class="menu_side_area">

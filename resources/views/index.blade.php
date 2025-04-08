@@ -609,7 +609,7 @@
         $('#reservationForm').on('submit', function(event) {
             // Create a new hidden input and append it to the form
             var startValue = $('input[name="daterangepicker_start"]').val();
-            alert(startValue);
+
             $('<input>').attr({
                 type: 'hidden',
                 name: 'checkin_date', // This should match the name attribute of the external input
