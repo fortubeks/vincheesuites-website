@@ -18,7 +18,7 @@
     <link href="{{url('almaris/css/coloring.css')}}" rel="stylesheet" type="text/css">
     <!-- color scheme -->
     <link id="colors" href="{{url('almaris/css/colors/scheme-01.css')}}" rel="stylesheet" type="text/css">
-
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
     <style>
         .floating-button {
             position: fixed;
@@ -85,6 +85,8 @@
     <script src="{{url('almaris/js/custom-swiper-3.js')}}"></script>
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <script src="{{url('almaris/contact.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 
 </body>
 

@@ -34,7 +34,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="bg-blur padding40 py-4 wow fadeInDown" data-wow-delay=".9s">
-                                <form id="reservationForm" method="get" action="https://appv2.venushotelsoftware.com/booking-engine/available-categories">
+                                <form id="reservationForm" method="get" action="{{route('rooms.index')}}">
                                     <div class="row g-4 align-items-center">
                                         <div class="col-lg-9">
                                             <div class="row g-4 align-items-center">
@@ -357,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
 
@@ -382,7 +382,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
 
@@ -408,7 +408,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
 
@@ -433,7 +433,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
 
@@ -459,7 +459,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
 
@@ -484,7 +484,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn-main w-100" href="{{route('home')}}">Book Now</a>
+                    <a class="btn-main w-100" href="{{route('rooms.index')}}">Book Now</a>
                 </div>
                 <!-- room end -->
             </div>

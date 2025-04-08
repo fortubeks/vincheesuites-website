@@ -33,7 +33,7 @@
                 <div class="de-flex">
                     <div class="col-start">
                         <ul id="mainmenu">
-                            <li><a class="menu-item" href="{{route('home').'#section-rooms'}}">Rooms</a></li>
+                            <li><a class="menu-item" href="{{route('rooms.index')}}">Rooms</a></li>
                             <li><a class="menu-item" href="{{route('home').'#section-about'}}">Facilities</a></li>
                             <li><a class="menu-item" href="{{route('gallery')}}">Gallery</a></li>
                             <li><a class="menu-item" href="{{route('reviews')}}">Reviews</a></li>

@@ -6,6 +6,22 @@
 
     <div id="top"></div>
 
+    <section id="subheader" class="relative jarallax text-light">
+        <img src="{{url('almaris/images/background/3.webp')}}" class="jarallax-img" alt="">
+        <div class="container relative z-index-1000">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h1>Rooms</h1>
+                    <ul class="crumb">
+                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li class="active">Rooms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="de-overlay"></div>
+    </section>
+
     <section class="pt80 sm-pt-40 no-bottom">
         <div class="owl-custom-nav menu-float" data-target="#gallery-carousel">
             <a class="btn-next"></a>
@@ -109,8 +125,16 @@
 
                             <div class="row g-3">
                                 <div class="col-md-12">
-                                    <h6 class="mb-2">Choose Date</h6>
-                                    <input type="text" id="date-picker" class="form-control no-bg bg-focus-color text-light" name="date" value="">
+                                    <h6 class="mb-2">Choose Checkin Date</h6>
+                                    <input id="flatpickrSample01" required
+                                        class="form-control datepicker checkin-date dates"
+                                        name="checkin_date" data-toggle="flatpickr" data-min-date="{{ now()->format('Y-m-d') }}" value="{{ now()->format('Y-m-d') }}">
+                                </div>
+                                <div class="col-md-12">
+                                    <h6 class="mb-2">Choose Checkout Date</h6>
+                                    <input id="flatpickrSample01" required
+                                        class="form-control datepicker checkin-date dates"
+                                        name="checkout_date" data-toggle="flatpickr" data-min-date="{{ now()->format('Y-m-d') }}" value="{{ now()->addDay()->format('Y-m-d') }}">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="text-center ">
@@ -146,8 +170,6 @@
 
                             <div class="spacer-single"></div>
 
-
-
                             <div>
                                 <div class="d-flex justify-content-between">
                                     <div>
@@ -175,30 +197,41 @@
 @endsection
 <script>
     window.addEventListener('load', function() {
+        // Initialize the datepickers   
+        $(".datepicker").flatpickr();
         $('#reservationForm').on('submit', function(event) {
-            // Create a new hidden input and append it to the form
-            var startValue = $('input[name="daterangepicker_start"]').val();
 
-            $('<input>').attr({
-                type: 'hidden',
-                name: 'checkin_date', // This should match the name attribute of the external input
-                value: startValue
-            }).appendTo('#reservationForm');
-
-            var endValue = $('input[name="daterangepicker_end"]').val();
-            $('<input>').attr({
-                type: 'hidden',
-                name: 'checkout_date', // This should match the name attribute of the external input
-                value: endValue
-            }).appendTo('#reservationForm');
         });
         //update the total cost based on the number of rooms and rate
-        $('input[name="rooms"]').on('input', function() {
-            var rate = parseFloat($('#rate').text());
-            //alert(rate);
-            var rooms = parseInt($(this).val()) || 1; // Default to 1 if input is empty or invalid
-            var total = rate * rooms;
-            $('#total').text(total.toFixed(2)); // Update the total cost display
+        var $roomsInput = $('input[name="rooms"]');
+        var $rate = parseFloat($('#rate').text());
+
+        function updateTotal() {
+            var rooms = parseInt($roomsInput.val()) || 1;
+            var total = $rate * rooms;
+            $('#total').text(total.toFixed(2));
+        }
+
+        // On direct input
+        $roomsInput.on('input', updateTotal);
+
+        // On clicking "+" button
+        $('.d-plus').on('click', function() {
+            var currentVal = parseInt($roomsInput.val()) || 1;
+            //$roomsInput.val(currentVal + 1);
+            updateTotal();
         });
+
+        // On clicking "-" button
+        $('.d-minus').on('click', function() {
+            var currentVal = parseInt($roomsInput.val()) || 1;
+            if (currentVal > 1) {
+                //$roomsInput.val(currentVal - 1);
+                updateTotal();
+            }
+        });
+
+        // Initialize total on page load
+        updateTotal();
     });
 </script>
