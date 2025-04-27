@@ -40,8 +40,8 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="bg-light hover relative text-center wow fadeInUp" data-wow-delay="{{ $delay }}s">
                         <div class="relative overflow-hidden">
-                            <div class="fs-14 p-0 px-3 abs bg-light text-dark fw-600 ms-3 mt-3 z-2">Best Seller</div>
-                            <img src="{{ asset('almaris/images/room-landscape/featured1.jpg') }}" class="img-fluid hover-scale-1-1" alt="">
+                            <!-- <div class="fs-14 p-0 px-3 abs bg-light text-dark fw-600 ms-3 mt-3 z-2">Best Seller</div> -->
+                            <img src="{{'https://venushotelsoftware.com/storage/'.$room['image']}}" class="img-fluid hover-scale-1-1" alt="">
                         </div>
                         <div class="p-3 pb-1 w-100 text-center">
                             <h4 class="mt-2 mb-0">{{ $room['name'] ?? 'Room Name' }}</h4>
